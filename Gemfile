@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.3.4'
+ruby '2.3.3'
 
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -9,8 +9,8 @@ gem 'rails', '~> 5.2.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
-# gem 'puma', '~> 3.11'
-gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"g
+gem 'puma', '~> 3.11'
+# gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"g
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
